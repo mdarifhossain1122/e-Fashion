@@ -67,4 +67,7 @@ button:hover{
     align-items: flex-start;
     background-position: top 10px center;
 }
+#home h1{
+    font-size: 60px;
+}
 
