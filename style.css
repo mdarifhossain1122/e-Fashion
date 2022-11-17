@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**Header section**/
+.navbar{
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px !important;
+    color: black;
+    transition: 0.3s ease;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: coral !important;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.navbar i:hover{
+    color: coral;
+
+}
