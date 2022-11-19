@@ -71,3 +71,27 @@ button:hover{
     font-size: 60px;
 }
 
+
+/**New product section**/
+#new .one .one-head img{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#new .one .one-head .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transition: 0.3s ease;
+    
+}
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(245, 178, 178, 0.7);
+}
+
