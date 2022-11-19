@@ -130,7 +130,26 @@ hr{
     color: goldenrod;
 }
 
-
+/**Banner section**/
+#banner{
+    background-image: url(https://img.freepik.com/free-photo/fashion-portrait-two-elegant-women-best-friends-posing-indoor-grey-wall-wearing-winter-fluffy-coat-black-casual-hat-fashionable-clothes-sisters-walking_273443-4074.jpg?w=1380&t=st=1668832440~exp=1668833040~hmac=f8aae8b44ef79a5440820b4b82f7e06baf3b239f2d0369ba5c99e8e2be7c3014);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-position: top 180px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#banner h5{
+    font-size: 15px;
+}
+#banner button{
+    background-color: #fb774b;
+}
 
 
 
